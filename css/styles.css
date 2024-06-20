@@ -135,3 +135,31 @@ a {
     color: var(--font-color);
     font-size: 1rem;
 }
+
+#projects .projects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects-header h2 {
+    font-size: 4.7rem;
+    color: var(--primary-color);
+}
+
+.projects-header a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid rgb(29, 216, 175);
+    padding-bottom: 8px;
+}
+
+#projects .projects-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.projects-list img {
+    max-width: 100%;
+}

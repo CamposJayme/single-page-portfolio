@@ -140,6 +140,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .projects-header h2 {
@@ -162,4 +163,16 @@ a {
 
 .projects-list img {
     max-width: 100%;
+}
+
+.projects-list h3 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.projects-list span {
+    color: var(--font-color);
+    text-transform: uppercase;
+    margin-right: 10px;
 }

@@ -73,7 +73,7 @@ a {
     display: block;
     width: 100%;
     height: 5px;
-    background-color: rgb(29, 216, 175);
+    background-color: #1dd8af;
 }
 
 #about div.intro p {
@@ -89,7 +89,7 @@ a {
     color: var(--primary-color);   
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-bottom: 2px solid rgb(29, 216, 175);
+    border-bottom: 2px solid #1dd8af;
     padding: 10px 0;
 }
 
@@ -136,6 +136,10 @@ a {
     font-size: 1rem;
 }
 
+#projects {
+    margin-bottom: 120px;
+}
+
 #projects .projects-header {
     display: flex;
     justify-content: space-between;
@@ -151,7 +155,7 @@ a {
 .projects-header a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    border-bottom: 2px solid rgb(29, 216, 175);
+    border-bottom: 2px solid #1dd8af;
     padding-bottom: 8px;
 }
 
@@ -175,4 +179,66 @@ a {
     color: var(--font-color);
     text-transform: uppercase;
     margin-right: 10px;
+}
+
+#contact {
+    background-color: #242424;
+}
+
+#contact .contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 50px;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.contact-header h2 {
+    color: var(--primary-color);
+    font-size: 4.7rem;
+}
+
+.contact-header p {
+    color: var(--font-color);
+    width: 400px;
+    line-height: 1.8rem;
+}
+
+.contact-form form input{
+    background-color: #242424;
+    display: block;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    margin-top  : 20px;
+    border-bottom: 2px solid #b4b4b4;
+}
+
+.contact-form form textarea {
+    resize: none;
+}
+
+.contact-form form a {
+    display: block;
+    text-align: right;
+}
+
+footer {
+    background-color: #242424;
+}
+
+.footer-container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 40px 0 80px 0;
+    border-top  : 2px solid var(--primary-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-menu ul {
+    display: flex;
+    gap: 2rem;
 }

@@ -207,20 +207,30 @@ a {
 .contact-form form input{
     background-color: #242424;
     display: block;
-    padding: 10px;
     border: none;
     width: 100%;
-    margin-top  : 20px;
+    padding: 10px;
+    margin-top: 20px;
     border-bottom: 2px solid #b4b4b4;
 }
 
 .contact-form form textarea {
+    background-color: #242424;
+    border: none;
+    border-bottom: 2px solid #b4b4b4;
     resize: none;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
 }
 
 .contact-form form a {
-    display: block;
-    text-align: right;
+    border-bottom: 2px solid #1dd8af;
+    float: right;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 footer {

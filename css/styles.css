@@ -175,6 +175,10 @@ a {
     margin: 10px 0;
 }
 
+.projects-list .src-section {
+    display: none;
+}
+
 .projects-list span {
     color: var(--font-color);
     text-transform: uppercase;

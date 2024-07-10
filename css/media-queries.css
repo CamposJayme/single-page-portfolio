@@ -1,8 +1,4 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    div.container {
-        padding: 0 0 0 30px;
-    }
-
     #about div.intro {
         max-width: 70%;
     }
@@ -16,9 +12,66 @@
         max-width: 45%;
         position: absolute;
         top: -130px;
+        right: -15px;
     }
 
     #about div.profile-photo img {
         height: 700px;
     }
+
+    #skills {
+        margin-top: 90px;
+    }
+
+    #skills div.skills-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #skills div.skills-list div {
+        margin-bottom: 60px;
+    }
+
+    #skills div.skills-list h2 {
+        font-size: 3rem;
+    }
+
+    #skills div.skills-list p {
+        font-size: 1.2rem;
+    }
+
+    .projects-list .src-section {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .projects-list .src-section span, .contact-form a {
+        color: var(--primary-color);
+        letter-spacing: 2px;
+        border-bottom: 2px solid #1dd8af;
+        padding: 10px 0;
+        cursor: pointer;
+    }
+
+    #contact .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-header {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contact-form {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    footer {
+        padding: 0 15px;
+    }    
+
+    .footer-container {
+        padding: 40px 0;
+    }
+
 }

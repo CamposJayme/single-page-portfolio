@@ -1,3 +1,4 @@
+/* TABLET */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     #about div.intro {
         max-width: 70%;
@@ -72,6 +73,48 @@
 
     .footer-container {
         padding: 40px 0;
+    }
+
+}
+
+/* MOBILE AND SMALL DEVICES */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    #about {
+        flex-direction: column-reverse;
+    }
+
+    #about div.profile-photo {
+        position: static;
+    }
+
+    #skills {
+        margin-top: 90px;
+    }
+
+    #skills div.skills-list {
+        grid-template-columns: 1fr;
+    }
+
+    #projects .projects-list {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-list .src-section {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .projects-list .src-section span, .contact-form a {
+        color: var(--primary-color);
+        letter-spacing: 2px;
+        border-bottom: 2px solid #1dd8af;
+        padding: 10px 0;
+        cursor: pointer;
+    }
+
+    #contact div.contact-container {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
     }
 
 }

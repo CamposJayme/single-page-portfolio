@@ -125,6 +125,15 @@
 
     #skills div.skills-list {
         grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .projects-header h2 {
+        font-size: 3.7rem;
+    }
+
+    .projects-header a {
+        font-weight: bold;
     }
 
     #projects .projects-list {

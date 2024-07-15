@@ -1,5 +1,5 @@
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 767.2px) and (max-width: 1024px) {
     #about div.intro {
         max-width: 70%;
     }
@@ -79,12 +79,44 @@
 
 /* MOBILE AND SMALL DEVICES */
 @media screen and (min-width: 320px) and (max-width: 767px) {
+    .header {
+        display: block;
+        text-align: center;
+        position: relative;
+    }
+
+    .header-menu ul {
+        margin-top: 25px;
+        justify-content: center;
+    }
+
     #about {
         flex-direction: column-reverse;
     }
 
+    #about div.intro {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    #about div.intro h1 {
+        font-size: 3.3rem;
+        margin-bottom: 30px;
+    }
+
+    #about div.intro p {
+        font-size: 1.2rem;
+        margin: 30px auto;
+    }
+
+    #about div.intro a {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
     #about div.profile-photo {
         position: static;
+        max-width: 50%;
     }
 
     #skills {

@@ -158,4 +158,19 @@
         padding: 0 15px;
     }
 
+    #contact div.contact-header {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    footer {
+        padding: 0 15px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
 }
